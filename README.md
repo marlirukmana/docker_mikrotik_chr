@@ -1,5 +1,21 @@
 - Current Mikrotik CHR 7.15
-- Please use docker compose latest 
+- Please use docker compose latest
+- Additional
+```
+apt-get update -y
+reboot
+apt-get install nano perl wget curl -y
+```
+- Install Docker
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+apt-cache policy docker-ce
+apt-get install docker-ce -y
+systemctl start docker
+systemctl enable docker
+systemctl status docker
+```
 
 - Command 
 
