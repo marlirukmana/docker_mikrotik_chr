@@ -10,7 +10,7 @@ wget https://raw.githubusercontent.com/marlirukmana/mikrotik_chr/main/docker-com
 docker compose up -d
 ```
 
-Please Edit port what you need
+Please Edit port what you need on docker-compose.yml
 ```
 version: "3"
 services:
