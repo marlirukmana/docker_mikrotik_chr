@@ -24,10 +24,9 @@ services:
       - /dev/net/tun
       - /dev/kvm
     ports:
-      - "2222:22"
       - "80:80"
       - "8291:8291"
-      - "51820:51820/udp"
+      - "8080:51820/udp"
 ```
 
 Login Winbox/Web Mikrotik
