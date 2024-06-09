@@ -9,3 +9,11 @@ cd chr
 wget https://raw.githubusercontent.com/marlirukmana/mikrotik_chr/main/docker-compose.yml
 docker compose up -d
 ```
+
+
+Login Winbox/Web Mikrotik
+```
+username = admin
+passowrd =
+
+```
