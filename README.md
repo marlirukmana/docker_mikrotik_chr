@@ -16,7 +16,10 @@ systemctl start docker
 systemctl enable docker
 systemctl status docker
 ```
-
+-install Docker Compose
+```
+apt  install docker-compose
+```
 - Command 
 
 ```
