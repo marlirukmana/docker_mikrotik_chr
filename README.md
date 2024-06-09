@@ -35,3 +35,23 @@ username = admin
 passowrd =
 
 ```
+
+```
+
+Entering Docker containers
+
+To enter a Docker container you can complete the following steps.
+Procedure
+
+    Run the following command to list all running Docker containers.
+
+    docker ps
+
+    Locate the name of the rarget container in the NAMES column.
+    Start a bash shell by running the following command with the target container name.
+    For example,
+
+    docker exec -it <container_name> bash
+
+
+```
