@@ -74,3 +74,8 @@ Procedure
 
 
 ```
+
+- cek port open
+  ```
+  sudo ss -ltn
+  ```
