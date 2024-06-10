@@ -35,18 +35,16 @@ version: "3"
 services:
   chr:
     container_name: mikrotik
-    # image: marlirukmana/routeros:latest // only for support kvm-ok cloud
-    image: marlirukmana/routeros:nvm
+    image: marlirukmana/routeros:6.49.15
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
     devices:
       - /dev/net/tun
-      # - /dev/kvm // only for support kvm-ok cloud
     ports:
       - "80:80"
       - "8291:8291"
-      - "8080:51820/udp"
+      - "13231:13231/udp"
 ```
 
 Login Winbox/Web Mikrotik
