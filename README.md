@@ -26,7 +26,7 @@ apt  install docker-compose
 ```
 mkdir chr
 cd chr
-wget https://raw.githubusercontent.com/marlirukmana/mikrotik_chr/main/docker-compose.yml
+wget https://raw.githubusercontent.com/marlirukmana/docker_mikrotik_chr/main/docker-compose.yml
 docker compose up -d
 ```
 
