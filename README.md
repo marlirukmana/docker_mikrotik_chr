@@ -35,7 +35,7 @@ version: "3"
 services:
   chr:
     container_name: mikrotik
-    image: marlirukmana/routeros:6.49.15
+    image: marlirukmana/routeros:7.12.1
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
