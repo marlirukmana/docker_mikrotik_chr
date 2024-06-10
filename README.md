@@ -33,15 +33,16 @@ Please Edit port what you need on docker-compose.yml
 ```
 version: "3"
 services:
-  routeros:
+  chr:
     container_name: mikrotik
-    image: marlirukmana/routeros:latest
+    # image: marlirukmana/routeros:latest // only for support kvm-ok cloud
+    image: marlirukmana/routeros:nvm
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
     devices:
       - /dev/net/tun
-      - /dev/kvm
+      # - /dev/kvm // only for support kvm-ok cloud
     ports:
       - "80:80"
       - "8291:8291"
