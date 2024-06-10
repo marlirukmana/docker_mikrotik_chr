@@ -75,14 +75,14 @@ Procedure
 ```
 
 - cek port open
-  ```
-  sudo ss -ltn
-  ```
-  - How to stop systemd-resolved from using port 53 on Ubuntu
-  ```
-  sudo nano /etc/systemd/resolved.conf
-  ```
-  set DNSStubListener=no
+```
+sudo ss -ltn
+```
+- How to stop systemd-resolved from using port 53 on Ubuntu
+```
+sudo nano /etc/systemd/resolved.conf
+```
+set DNSStubListener=no
 ```
 sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
 reboot
