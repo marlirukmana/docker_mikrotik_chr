@@ -1,4 +1,4 @@
-- Current Mikrotik CHR 7.15 support mostly Cloud VPS
+- Current Mikrotik CHR 7.15 - support mostly Cloud VPS
 - Please use docker compose latest
 - Additional
 ```
@@ -87,4 +87,5 @@ set DNSStubListener=no
 sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
 reboot
 ```
-  
+
+- base package docker repository from evilfreelancer/docker-routeros:6.48.3
