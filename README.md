@@ -1,4 +1,5 @@
 - Current Mikrotik CHR 7.15 - support mostly Cloud VPS
+- Tested on ubuntu 20.04
 - Please use docker compose latest
 - Additional
 ```
