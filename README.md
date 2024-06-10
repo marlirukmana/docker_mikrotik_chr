@@ -1,4 +1,4 @@
-- Current Mikrotik CHR 7.15 - support mostly Cloud VPS
+- Current Mikrotik CHR 7.15.1 - support mostly Cloud VPS
 - Tested on ubuntu 20.04
 - Please use docker compose latest
 - Additional
@@ -36,7 +36,7 @@ version: "3"
 services:
   chr:
     container_name: mikrotik
-    image: marlirukmana/routeros:7.12.1
+    image: marlirukmana/routeros:7.15.1
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
