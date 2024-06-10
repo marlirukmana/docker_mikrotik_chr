@@ -6,7 +6,7 @@ apt-get update -y
 reboot
 apt-get install nano perl wget curl -y
 ```
-- Install Docker
+- Install Docker For Ubuntu 20.4
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
